@@ -1,0 +1,16 @@
+.contact_form_container{
+    box-shadow: var(--shadow);
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.cont_btn{
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+}
