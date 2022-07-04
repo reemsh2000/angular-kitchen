@@ -24,7 +24,11 @@
           <img src="{{ fd.foodImg }}" />
         </div>
         <h1>{{ fd.foodName }}</h1>
-        <p>{{ fd.foodPrice | currency: "INR" }}</p>
+        <p>{{ fd.foodPrice | currency: 'INR' }}</p>
+        <a class="buybtn" [routerLink]="['/menu', fd.id]">
+          More details &nbsp;
+          <i class="bi bi-bag"></i>
+        </a>
       </div>
     </div>
   </div>

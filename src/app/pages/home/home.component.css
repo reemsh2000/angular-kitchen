@@ -61,22 +61,31 @@
 }
 .viewmorebtn {
   text-decoration: none;
-  background-color: var(--primary-color);
-  color: #000;
+  background-color: #000;
+  color: #fff;
   padding: 10px 10px;
   border-radius: 5px;
   font-size: 18px;
+}
+.buybtn {
+  color: #000;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
 }
 
 @keyframes zoom-in {
   0% {
     transform: scale(0.8, 0.8);
   }
-
 }
 
-@media (max-width:900px) {
-  .image_container{
+@media (max-width: 900px) {
+  .image_container {
     height: 400px;
   }
 }

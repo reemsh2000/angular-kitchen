@@ -21,7 +21,7 @@ export class OrderDetailsService {
       id: 2,
       foodName: 'Veggie Supreme',
       foodDetails:
-        'Onion| Green Capsicum|Mushroom |black olives , sweet corn , Red Paprika topped with Cheese',
+        'Onion, Green Capsicum,Mushroom ,black olives , sweet corn , Red Paprika topped with Cheese',
       foodPrice: 369,
       foodImg:
         'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k',

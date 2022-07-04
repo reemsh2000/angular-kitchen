@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './sharepage/navbar/navbar.component';
-import { FooterComponent } from './sharepage/footer/footer.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
+import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu-page/menu.component';
 import { AboutComponent } from './pages/about/about.component';
